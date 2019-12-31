@@ -1,0 +1,33 @@
+This README file contains information on the contents of the meta-distro layer.
+
+Please see the corresponding sections below for details.
+
+Maintainer: Fernando Palarmini <fpalarmini@gmail.com>
+
+Table of Contents
+=================
+
+  I. Adding the meta-distro layer to your build
+ II. Misc
+III. Images Available
+
+I. Adding the meta-distro layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-distro'
+
+II. Misc
+========
+
+--- This layer contains splash custom with possibility changing progress bar and image, and custom image with qt5 enable ---
+
+III. Images Available
+=====================================================================
+
+console
+custom-image
+qt5-image
+qt5-image-console
+
+Run 'bitbake -k qt5-image' for building image
+
